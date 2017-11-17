@@ -1,0 +1,7 @@
+.runground{width:100%;overflow:hidden;padding-right:50px;box-sizing:border-box}
+.runitem{position:relative;display:block;width:50px;height:44px;background:url('/img/running_camel.gif') 0 0 no-repeat}
+.runtime{display:block;position:absolute;width:100px;top:0;left:-100px;color:#000;text-align:right;line-height:44px;font-size:12px;}
+.itemnum{position:absolute;top:;right:0;width:15px;height:15px;color:#000;background:#fff;font-size:11px;text-align:center;line-height:15px;border-radius:10px}
+.desc_text{font-size:14px;}
+.inputtext{width:40px}
+button{display: block;margin-bottom:10px}

@@ -1,2 +1,9 @@
-# hrun
-react.js로 구현한 간단한 경마게임.
+# React 연습용으로 만든 경마게임
+
+### Usage
+
+```
+npm install
+npm start
+Open http://localhost:5000
+```
