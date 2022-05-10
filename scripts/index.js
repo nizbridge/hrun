@@ -5,13 +5,15 @@ import App from './App';
 import Run from './Run';
 
 
-ReactDOM.render(
-    <BrowserRouter>
-        <div>
-            <Route exact path="/" component={App}/>
-            <Route path="/Run" component={Run}/>
-        </div>
-    </BrowserRouter>,
-    document.getElementById('root');
-);
+ReactDOM.render(<App />, document.getElementById('root'));
+
+// ReactDOM.render(
+//     <BrowserRouter>
+//         <div>
+//             <Route exact path="/" component={App}/>
+//             <Route path="/Run" component={Run}/>
+//         </div>
+//     </BrowserRouter>,
+//     document.getElementById('root');
+// );
 
