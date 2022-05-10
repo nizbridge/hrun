@@ -13,6 +13,6 @@ ReactDOM.render(
             <Route path="/Run" component={Run}/>
         </div>
     </BrowserRouter>,
-    document.getElementById('root');
+    document.getElementById('root')
 );
 
