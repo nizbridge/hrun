@@ -31,7 +31,7 @@
     "react-dom": "^15.4.1",
     "react-router-dom": "^4.2.2",
     "babel-loader": "^6.2.10",
-    "babel-preset-react": "^6.16.0",
+    "babel-preset-react": "^6.16.0"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
