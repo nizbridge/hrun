@@ -55,7 +55,7 @@ module.exports = {
     publicPath: '/'
   },
   resolve: {
-    extensions: ['', '.js']
+ extensions: ['', '.js', '.jsx', '.css']
   },
   devtool: 'source-map',
   plugins: [
@@ -75,9 +75,14 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['babel'],
-        include: path.join(__dirname, 'scripts')
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+                query: {
+                    presets: ['react', 'es2015','stage-1']
+                }
       }
+      ,{ test: /\.css$/, loader: 'style-loader!css-loader'}
+
     ]
   }
 };
