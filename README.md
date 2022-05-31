@@ -8,4 +8,4 @@ npm start
 Open http://localhost:5000
 ```
 
-Demo : https://tubular-zuccutto-031d6f.netlify.app/Run
+Demo : https://tubular-zuccutto-031d6f.netlify.app/
